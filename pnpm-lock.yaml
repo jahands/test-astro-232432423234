@@ -6,7 +6,9 @@ settings:
 
 importers:
 
-  .:
+  .: {}
+
+  apps/web:
     dependencies:
       '@astrojs/cloudflare':
         specifier: 12.6.0
@@ -2582,7 +2584,7 @@ snapshots:
 
   '@types/sax@1.2.7':
     dependencies:
-      '@types/node': 17.0.45
+      '@types/node': 24.6.2
 
   '@types/unist@2.0.11': {}
 
